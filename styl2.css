@@ -1,0 +1,38 @@
+*{
+    font-family: Garamond;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #3CB371;
+    color: white;
+    font-size:  130%;
+    text-align: center;
+    padding: 10px;
+}
+.footer{
+    background-color: #3CB371;
+    color: white;
+    font-size:  130%;
+    text-align: center;
+    padding: 10px;
+}
+.lewy{
+    float: left;
+    background-color: #FAEBD7;
+    height: 450 px;
+}
+.prawy{
+    background-color: #FAEBD7;
+    height: 450 px;   
+}
+.lewyprawy{
+    display: grid;
+    grid-template-columns: 55% 45%;
+
+}
+img{
+    margin: 15px;
+    border:2px dashed #3CB371;
+    padding: 3 px;
+}
